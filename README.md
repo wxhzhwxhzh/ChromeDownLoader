@@ -107,7 +107,7 @@ ChromeDownLoader/
 使用pyinstaller打包为可执行文件：
 
 ```bash
-pyinstaller --onefile --windowed main.py
+pyinstaller --onefile --windowed  --name ChromeDownLoader --icon=app.ico main.py
 ```
 
 打包后的文件将在`dist`目录中生成。
